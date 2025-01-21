@@ -1,3 +1,6 @@
+export const runtime = "edge";
+
+
 export default async function Doc({ params }: { params: Promise<{ slug: string[] }> }) {
     const { slug } = await params;
 
