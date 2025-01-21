@@ -6,7 +6,7 @@ import Web3 from "web3";
 // Extend the global Window interface
 declare global {
   interface Window {
-    ethereum?: MetaMaskInpageProvider;
+    ethereum?: MetaMaskInpageProvider | any | undefined;
   }
 }
 

@@ -11,6 +11,9 @@ export default function Component() {
       <nav className="flex items-center justify-between p-4 bg-gray-100 text-gray-800 shadow-md">
         <div className="text-xl font-bold">Next.js on Cloudflare</div>
         <div className="flex text-md space-x-6">
+          <Link href="/connect-wagmi-wallet" className="hover:text-primary hover:underline transition-colors duration-200 font-medium">
+            Wagmi Connect
+          </Link>
           <Link href="/connect-wallet" className="hover:text-primary hover:underline transition-colors duration-200 font-medium">
             Connect Wallet
           </Link>
